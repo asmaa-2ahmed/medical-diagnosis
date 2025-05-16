@@ -83,7 +83,7 @@ Before running the app, make sure you have the following installed:
 1. **Clone the project**
 
 ```bash
-git clone https://github.com/your-username/medical-diagnosis-app.git
+git clone https://github.com/asmaa-2ahmed/medical-diagnosis
 cd medical-diagnosis-app
 ```
 
@@ -113,14 +113,14 @@ streamlit run app.py
 ```
 📁 medical-diagnosis-app
 ├── app.py             # Streamlit app
-├── medical_kb.pl      # Prolog knowledge base
+├── expert_system.pl      # Prolog knowledge base
 ├── requirements.txt   # Python dependencies
 └── README.md          # Project description
 ```
 
 ---
 
-## 💡 Prolog Sample Logic (medical\_kb.pl)
+## 💡 Prolog Sample Logic (expert_system.pl)
 
 ```prolog
 % Symptoms
@@ -148,7 +148,7 @@ You can easily add more rules and diseases to extend the functionality!
 ## 🧪 Tips for Testing
 
 * Try selecting different combinations of symptoms
-* Add new rules to `medical_kb.pl` and rerun the app
+* Add new rules to `expert_system.pl` and rerun the app
 * Want to diagnose cold? Add:
 
 ```prolog
