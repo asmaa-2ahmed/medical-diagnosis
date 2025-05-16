@@ -1,4 +1,4 @@
-# 👨‍⚕️ Medical Diagnosis Exoert System - Web App (Streamlit + Prolog)
+# 👨‍⚕️ Medical Diagnosis Expert System - Web App (Streamlit + Prolog)
 
 Welcome to your **intelligent medical diagnosis assistant**! This app combines the power of **Prolog** (a logic programming language) with a modern, interactive **Python Streamlit** frontend. Just select your symptoms and let our virtual doctor suggest a diagnosis, treatment, and helpful prevention tips — all powered by logic rules behind the scenes.
 
