@@ -1,0 +1,128 @@
+/* General background and text color */
+body {
+    background-color: #1e1e2f;
+    color: #e4e4eb;
+}
+
+/* Header styles */
+h1, h2, h3 {
+    color: #ff6f61;
+    font-family: Arial, sans-serif;
+}
+
+/* Button styling */
+button {
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+button:hover {
+    background-color: #ff4a3d;
+    transform: scale(1.03);
+}
+
+button:active {
+    background-color: #e63e2f;
+    transform: scale(0.97);
+}
+
+/* Sidebar styling */
+.sidebar {
+    background-color: #2c2c3e;
+    color: #e4e4eb;
+    padding: 20px;
+    border-right: 1px solid #444;
+}
+
+/* Input field styling */
+input[type="text"],
+input[type="number"],
+textarea {
+    background-color: #2c2c3e;
+    color: #e4e4eb;
+    border: 2px solid #ff6f61;
+    padding: 10px;
+    border-radius: 6px;
+    width: 100%;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+/* Divider line */
+hr {
+    border: 1px solid #ff6f61;
+    margin: 20px 0;
+}
+
+/* Metrics */
+.metric {
+    background-color: #2c2c3e;
+    color: #e4e4eb;
+    padding: 15px;
+    border: 1px solid #ff6f61;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+/* Links */
+a {
+    color: #ff6f61;
+    text-decoration: none;
+    transition: text-decoration 0.3s ease;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Symptom card styling */
+.symptom-card {
+    background-color: #2c2c3e;
+    border: 1px solid #ff6f61;
+    border-radius: 12px;
+    padding: 15px;
+    margin: 10px 0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.symptom-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 16px rgba(255, 111, 97, 0.4);
+}
+
+/* Diagnosis card styling */
+.diagnosis-card {
+    background-color: #f8f8f8;
+    color: #1e1e2f;
+    border-left: 6px solid #ff6f61;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 12px;
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Checkbox styling */
+input[type="checkbox"] {
+    accent-color: #ff6f61;
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+}
+
+.checkbox-label {
+    font-size: 14px;
+    color: #e4e4eb;
+}
